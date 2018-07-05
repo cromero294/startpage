@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+    margin: 0;
+	font-family: Lucida Console;
+}
+
+.bg{
+    /* The image used */
+    background-image: url("(15).jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blackblock {
+	position: absolute;
+    width: 950px;
+	height: 378px;
+	background-color: black;
+	margin-top: 340px;
+	margin-left: 505px;
+    margin-right: auto;
+}
+
+.container {
+    position: absolute;
+    width: 950px;
+	height: 378px;
+	background-color: lightgrey;
+	margin-top: 320px;
+	margin-left: 485px;
+    margin-right: auto;
+}
+
+.icon {
+	float: left;
+	height: 45px;
+	width: 45px;
+	margin-top: 47px;
+	margin-left: 10%;
+}
+
+input[type=text] {
+	margin-left: 20px;
+    width: 70%;
+	margin-top: 52px;
+    padding: 2px 2px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #a7a7a7;
+	background-color: lightgrey;
+	font-size: 24px;
+	font-family: Lucida Console;
+	color: #a7a7a7;  
+}
+
+.button_part {
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	color: #6E6E6E;
+}
+
+th, td {
+    padding-right: 240px;
+    text-align: center;    
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: lightgrey;
+    border: 2px solid lightgrey;
+	color: #a7a7a7;
+}
+
+.button1:hover {
+	color: #9966ff;
+}
